@@ -1,0 +1,25 @@
+body, h1 {
+    margin: 0;
+}
+
+/******* HEADER ***********/
+header {
+    text-align: center;
+    padding: 10px;
+}
+
+/******* LISTS ***********/
+#todo-list {
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 10px;
+}
+
+.list {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.list-title {
+    margin-left: 20px;
+}
