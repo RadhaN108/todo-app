@@ -1,11 +1,25 @@
-body, h1 {
+body {
     margin: 0;
+    color: teal;
+    font-family: 'Roboto', sans-serif;
 }
 
 /******* HEADER ***********/
 header {
     text-align: center;
     padding: 10px;
+    background-color: teal;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+
+header a {
+    color: gold;
+    text-decoration: none;
+}
+
+h1 {
+    margin: 0;
 }
 
 /******* LISTS ***********/
@@ -18,8 +32,26 @@ header {
 .list {
     padding: 10px;
     margin-bottom: 10px;
+    background-color: #eeeeee;
+    border: 1px solid #cccccc;
 }
 
 .list-title {
     margin-left: 20px;
+}
+
+/******* BUTTONS & FIELDS **********/
+button {
+    padding: 15px;
+    border-radius: 10px;
+    border-color: teal;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: teal;
+}
+
+input {
+    height: 40px;
+    width: 30%;
 }
